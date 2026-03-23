@@ -1,7 +1,7 @@
 // API Service for AI Twin of Germany
 // Created by AMAN SINGH KANDARI
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://ai-twin-project.onrender.com';
 
 export interface City {
   name: string;
